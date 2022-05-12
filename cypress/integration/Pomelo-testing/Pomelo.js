@@ -14,7 +14,7 @@ it ('Login and logout function',function(){
 })
 
 
-it (' adds the products-case1',function(){
+it ('adds the products-case1',function(){
     cy.visit('https://www.pomelofashion.com/th/en/')
     cy.get('[data-cy="nav_user__search"]').click()
     cy.get('.pml-input__wrapper > .body2').type("Pink Skirt").type('{enter}')
@@ -35,7 +35,7 @@ it (' adds the products-case1',function(){
 
 
 
-it('Case02 heck quantity',function(){
+it('Case02 check quantity',function(){
     cy.visit('https://www.pomelofashion.com/th/en/')
     cy.get('[data-cy="nav_user__cart"]').click()
     cy.get('.cart-item-info__product-name').should('contain', 'Kelly Skirt - Pink')
@@ -63,7 +63,7 @@ it('Case02 heck quantity',function(){
 })
 
 
-it('Case03 Check quantity',function(){
+it('Case03 Check size',function(){
 
     cy.visit('https://www.pomelofashion.com/th/en/')
     cy.get('[data-cy="nav_user__cart"]').click()
