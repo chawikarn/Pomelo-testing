@@ -7,9 +7,9 @@ Test Scenario
      
      
      
-2.Automated test assignment 
+2.Automated test assignment  
 
-Use Cypress platform to Testing 
+Use Cypress platform to Testing (need to install Cypress to run)
 
 	file Name : Pomelo-testing.js 
 
