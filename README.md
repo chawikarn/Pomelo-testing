@@ -19,7 +19,7 @@ location : cypress > integration > Pomelo-testing.js <
 	2. click >Pomelo-testing.js< file in cypress interface  to run 
 
 
-7 Test case
+7 Test case (Automated test assignment)
 
 
 1  Login and logout function
