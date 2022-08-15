@@ -118,7 +118,7 @@ it ('Case04 apply promo code (eligible Code)',function(){
     cy.get('.cart-discount__main > .pml-input-layout__container > .jsx-958784943 > .pml-input__wrapper > .jsx-1695452889').type("GET30TH").type('{enter}')
     cy.get('.cart-discount__main > .jsx-3342260016').click()
     cy.get('.pomelo-snack-bar').contains('Please log in.') // Check valid code
-
+    cy.get('[data-cy="nav_user__cart"]').click()
 })
 
 
