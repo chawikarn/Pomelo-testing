@@ -3,7 +3,7 @@
 
 it ('Login and logout function',function(){
     cy.visit('https://www.pomelofashion.com/th/en/')
-    cy.get('[data-cy="nav_login"]').click() 
+    //cy.get('[data-cy="nav_login"]').click() 
     cy.get('.auth__email-form > :nth-child(1) > .pml-input-layout__input-wrapper > .pml-input__wrapper > .jsx-1695452889').type('Chawikarnz@hotmail.com')
     cy.get(':nth-child(2) > .pml-input-layout__input-wrapper > .pml-input__wrapper > .body1').type('zondok-nihdo1-xevqoN')
     
@@ -27,7 +27,7 @@ it ('adds the products-case1',function(){
     cy.get('.body2 > .jsx-3394283378').should('contain', 'Kelly Skirt - Pink')
     cy.get('[data-cy="close_cart_notice"] > .jsx-1694967188').click()
    //Check Cart
-     cy.get('[data-cy="nav_user__cart"]').click()
+     //cy.get('[data-cy="nav_user__cart"]').click()
      cy.get('.cart-item-info__quantity > .pml-input-layout__container > .pml-input-layout__input-wrapper > .body1 > .pml-dropdown__select').select('1')
 
 })
